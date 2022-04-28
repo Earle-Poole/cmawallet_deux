@@ -1,0 +1,21 @@
+.layout {
+  position: relative;
+  background: linear-gradient(to bottom, #a8c0ff 40%, #ffd452 100%) no-repeat
+    center center fixed;
+  opacity: 1;
+  /* min-width: 72rem; */
+}
+
+.layout::after {
+  content: '';
+  background: url(../public/assets/bright-squares.png);
+  background-color: #803380;
+  opacity: 0.25;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+}
