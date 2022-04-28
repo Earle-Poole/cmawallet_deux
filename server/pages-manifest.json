@@ -1,0 +1,16 @@
+{
+  "/_app": "pages/_app.js",
+  "/api/hello": "pages/api/hello.js",
+  "/compatibility-list": "pages/compatibility-list.html",
+  "/contact-us": "pages/contact-us.html",
+  "/forms-links": "pages/forms-links.html",
+  "/": "pages/index.html",
+  "/leo-military": "pages/leo-military.html",
+  "/product-design": "pages/product-design.html",
+  "/safety-use": "pages/safety-use.html",
+  "/scenarios": "pages/scenarios.html",
+  "/terms-conditions": "pages/terms-conditions.html",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
