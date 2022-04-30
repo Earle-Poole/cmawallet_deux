@@ -4,13 +4,17 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "gh-pages -d out",
+    "export": "next build && next export && next-image-export-optimizer"
   },
   "dependencies": {
     "classnames": "^2.3.1",
+    "gh-pages": "^3.2.3",
     "next": "12.1.5",
+    "next-image-export-optimizer": "^0.9.6",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "react-image-gallery": "^1.2.7"
@@ -26,5 +30,6 @@
     "postcss": "^8.4.12",
     "tailwindcss": "^3.0.24",
     "typescript": "4.6.3"
-  }
+  },
+  "homepage": "https://earle-poole.github.io/cmawallet_deux/"
 }

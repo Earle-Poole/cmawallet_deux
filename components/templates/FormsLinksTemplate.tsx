@@ -1,5 +1,5 @@
-import Image from 'next/image'
 import Link from 'next/link'
+import ExportedImage from 'next-image-export-optimizer'
 
 const formLinks = {
   tips: 'http://cmawallets.com/static/media/ATF%20Form%201%20Tips.bb4eb5ec.pdf',
@@ -121,7 +121,7 @@ const FormsLinksTemplate = () => {
           </div>
           <Link href={formLinks.tips} passHref>
             <a className='p-8'>
-              <Image
+              <ExportedImage
                 src='http://cmawallets.com/static/media/ATF%20Form%201%20thumbnail.76498619.png'
                 alt='ATF form tips'
                 width={520}
