@@ -23,6 +23,10 @@ const footerNavItems: NavItem[] = [
     label: 'Product Design',
     route: '/product-design',
   },
+  {
+    label: 'Forms & Links',
+    route: '/forms-links',
+  },
 ]
 
 const Footer: React.FC = () => {

@@ -12,7 +12,7 @@ const Layout: React.FC<{ children: ReactNode }> = ({ children }) => {
         styles.layout
       )}>
       <Header />
-      <div className='flex-1 w-full justify-center max-w-7xl z-10'>
+      <div className='flex-1 w-full justify-center max-w-7xl z-10 xl:px-0 px-8'>
         {children}
       </div>
       <Footer />

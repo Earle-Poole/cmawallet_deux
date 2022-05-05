@@ -13,7 +13,7 @@ const NavList: React.FC<{ items: NavItem[] }> = ({ items }) => {
           <Link href={href} key={item.label} passHref>
             <a
               className={classNames(
-                'p-5 text-xl hover:underline cursor-pointer',
+                'p-2 xl:p-5 text-base xl:text-xl hover:underline cursor-pointer',
                 {
                   underline: pathname === href,
                 }

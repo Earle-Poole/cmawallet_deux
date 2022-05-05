@@ -1,5 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from 'next/link'
-import ExportedImage from 'next-image-export-optimizer'
+import atfFormThumb from '@/assets/atf-form-thumb.png'
 
 const formLinks = {
   tips: 'http://cmawallets.com/static/media/ATF%20Form%201%20Tips.bb4eb5ec.pdf',
@@ -78,8 +79,8 @@ const formLinks = {
 const FormsLinksTemplate = () => {
   return (
     <div className='flex flex-col'>
-      <div className='flex'>
-        <div className='flex flex-1 flex-col border-r items-center  border-black'>
+      <div className='flex flex-col lg:flex-row'>
+        <div className='flex flex-1 flex-col mb-12 lg:mb-0 lg:border-r items-center  border-black'>
           <p className='text-2xl mb-8'>
             For your convenience, we&apos;ve provided some partially filled out
             forms here
@@ -121,11 +122,12 @@ const FormsLinksTemplate = () => {
           </div>
           <Link href={formLinks.tips} passHref>
             <a className='p-8'>
-              <ExportedImage
-                src='http://cmawallets.com/static/media/ATF%20Form%201%20thumbnail.76498619.png'
+              <img
+                src={atfFormThumb.src}
                 alt='ATF form tips'
                 width={520}
                 height={360}
+                style={{ width: 520, height: 360 }}
               />
             </a>
           </Link>

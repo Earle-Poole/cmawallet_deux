@@ -20,8 +20,8 @@ const headerNavItems: NavItem[] = [
     href: 'https://shoppy.gg/product/hfRLCkS',
   },
   {
-    label: 'Forms & Links',
-    route: '/forms-links',
+    label: 'Veterans',
+    route: '/veterans',
   },
   {
     label: 'Scenarios',

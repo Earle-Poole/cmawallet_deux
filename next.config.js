@@ -14,7 +14,9 @@ const nextConfig = {
       storePicturesInWEBP: true,
     },
     domains: ['cmawallets.com'],
-  }
+  },
+  basePath: '/cmawallet_deux',
+  assetPrefix: '/cmawallet_deux'
 }
 
 module.exports = nextConfig

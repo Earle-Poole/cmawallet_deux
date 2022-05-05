@@ -1,6 +1,6 @@
 const ScenariosTemplate = () => {
   return (
-    <div className='text-2xl mx-20 leading-relaxed'>
+    <div className='text-2xl xl:mx-20 leading-relaxed'>
       <p
         className='first-line:uppercase first-line:tracking-widest
   first-letter:text-8xl first-letter:font-bold
